@@ -20,25 +20,26 @@
 .footer-tablet {
   display: flex;
   flex-direction: column;
-  // margin-bottom: 60px;
-  @media screen and (min-width: 320px) {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-around;
+  justify-content: center;
+  text-align: center;
+  @media screen and (min-width: 480px) {
     margin-bottom: 60px;
   }
   @media screen and (min-width: 768px) {
     display: flex;
+    flex-direction: row;
     align-items: baseline;
     justify-content: space-around;
+
     margin-bottom: 60px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
     align-items: baseline;
+    margin-right: 93px;
+
     margin-bottom: 0;
     padding: 0;
-    // margin-right: 93px;
   }
 }
 
@@ -46,13 +47,7 @@
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     display: block;
-
-    margin-bottom: 60px;
-  }
-
-  @media screen and (min-width: 768px) {
-    display: block;
-    margin-bottom: 60px;
+    margin-bottom: 0px;
   }
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
@@ -111,8 +106,8 @@
 }
 
 .join-footer {
-  @media screen and (min-width: 480px) {
-    margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 0;
   }
 }
 
