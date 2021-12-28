@@ -15,7 +15,7 @@
 
 .overlay {
   max-width: 1600px;
-  height: 400px;
+
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66),
@@ -30,27 +30,25 @@
       url("../images/hero/hero2x.jpg");
   }
   @media screen and (min-width: 480px) {
-    height: 400px;
   }
   @media screen and (min-width: 768px) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66),
-      url("/images/hero/hero-tablet.jpg");
+      url("../images/hero/hero-tablet.jpg");
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66),
-        url("/images/hero/hero-tablet2x.jpg");
+        url("../images/hero/hero-tablet2x.jpg");
     }
   }
   @media screen and (min-width: 1200px) {
-    height: 600px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66),
-      url("/images/hero/hero-desktop.jpg");
+      url("../images/hero/hero-desktop.jpg");
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), #2f303a66),
-        url("/images/hero/hero-desktop2x.jpg");
+        url("../images/hero/hero-desktop2x.jpg");
     }
   }
 }
